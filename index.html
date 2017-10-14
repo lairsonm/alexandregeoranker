@@ -1,0 +1,43 @@
+<html>
+<head>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+    table, th, td {
+    border: 1px solid black;
+}
+    </style>
+</head>
+
+    <body>
+    
+        <form id="formulario" method="post" action="">
+ 
+    <legend>Form</legend>
+ 
+ 
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" type="email" name="e-mail" id="email"  required/>
+    </div>
+            
+    <div class="form-group">
+        <label>Sessão</label>
+        <input class="form-control" type="text" name="secao" id="session" required/>
+    </div>
+ 
+    <input id="submit" name="submit" class="btn btn-primary" type="submit" value="Enviar" />
+ 
+</form>
+    
+    <table border='1' id="trackers">
+        <tr>
+            <th>id </th>
+            <th>token </th>
+        </tr>
+        </table>
+      <script type="text/javascript" src="scripts.js"></script>  
+    </body>
+    
+    
+</html>
